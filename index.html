@@ -5,29 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcelo Augusto | DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>🚀 Olá, sou Marcelo Augusto</h1>
-        <p>Especialista em DevOps, Kubernetes, IaC e Cloud ☁️</p>
+    <header class="header">
+        <h1 class="fade-in">🚀 Marcelo Augusto</h1>
+        <p class="fade-in">Especialista em DevOps, Kubernetes e Cloud ☁️</p>
     </header>
-
-    <section>
-        <h2>📌 Sobre Mim</h2>
-        <p>Sou um profissional apaixonado por automação, infraestrutura como código e segurança em ambientes cloud.</p>
+    
+    <section class="projects">
+        <h2 class="slide-in">🔧 Projetos Destacados</h2>
+        <div class="project-list">
+            <div class="project fade-in">
+                <h3>Cluster Kubernetes com HA</h3>
+                <p>Configuração de um cluster Kubernetes altamente disponível com balanceador de carga.</p>
+                <a href="https://github.com/Marcelo-Augusto-Silva/projeto-k8s" target="_blank">Ver no GitHub →</a>
+            </div>
+            <div class="project fade-in">
+                <h3>Infraestrutura AWS com Terraform</h3>
+                <p>Provisionamento de infraestrutura escalável na AWS utilizando Terraform.</p>
+                <a href="https://github.com/Marcelo-Augusto-Silva/terraform-aws" target="_blank">Ver no GitHub →</a>
+            </div>
+            <div class="project fade-in">
+                <h3>Pipeline CI/CD com GitHub Actions</h3>
+                <p>Automação de deploys com CI/CD usando GitHub Actions e Docker.</p>
+                <a href="https://github.com/Marcelo-Augusto-Silva/pipeline-cicd" target="_blank">Ver no GitHub →</a>
+            </div>
+        </div>
     </section>
-
-    <section>
-        <h2>🔧 Projetos Destacados</h2>
-        <ul>
-            <li>🛠 <a href="https://github.com/Marcelo-Augusto-Silva/projeto-k8s">Cluster Kubernetes com HA</a></li>
-            <li>☁️ <a href="https://github.com/Marcelo-Augusto-Silva/terraform-aws">Infraestrutura AWS com Terraform</a></li>
-            <li>⚡ <a href="https://github.com/Marcelo-Augusto-Silva/pipeline-cicd">Pipeline CI/CD com GitHub Actions</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>🔗 <a href="https://www.linkedin.com/in/marcelo-devops/">LinkedIn</a> | <a href="https://github.com/Marcelo-Augusto-Silva">GitHub</a> | <a href="https://www.youtube.com/@CyberTechShape">YouTube</a></p>
+    
+    <footer class="footer">
+        <p class="fade-in">📩 Entre em contato:</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/marcelo-devops/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Marcelo-Augusto-Silva" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@CyberTechShape" target="_blank">YouTube</a>
+        </div>
     </footer>
 </body>
 </html>
