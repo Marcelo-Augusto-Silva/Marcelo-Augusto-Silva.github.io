@@ -3,13 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Estilo geral */
 body {
     background-color: #121212;
     color: white;
     text-align: center;
+}
+
+/* Container principal */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -18,36 +25,37 @@ body {
     background-color: #1e1e1e;
     padding: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.header h1 {
+.logo {
     font-size: 3rem;
     color: #ff4747;
 }
 
-nav ul {
+.subtitle {
+    color: #ccc;
+}
+
+/* Navegação */
+.navbar ul {
     list-style: none;
     padding: 10px;
 }
 
-nav ul li {
+.navbar ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+.navbar ul li a {
     color: #ff4747;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
     color: #ffffff;
 }
 
