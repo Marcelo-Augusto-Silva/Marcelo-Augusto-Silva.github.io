@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,38 +10,62 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="fade-in">🚀 Marcelo Augusto</h1>
-        <p class="fade-in">Especialista em DevOps, Kubernetes e Cloud ☁️</p>
+        <div class="container">
+            <h1>🚀 Marcelo Augusto</h1>
+            <p>Especialista em DevOps, Kubernetes e Cloud ☁️</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <section class="projects">
-        <h2 class="slide-in">🔧 Projetos Destacados</h2>
-        <div class="project-list">
-            <div class="project fade-in">
-                <h3>Cluster Kubernetes com HA</h3>
-                <p>Configuração de um cluster Kubernetes altamente disponível com balanceador de carga.</p>
-                <a href="https://github.com/Marcelo-Augusto-Silva/projeto-k8s" target="_blank">Ver no GitHub →</a>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um profissional apaixonado por automação, infraestrutura como código e segurança em ambientes cloud.</p>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>🔧 Projetos Destacados</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Cluster Kubernetes com HA</h3>
+                    <p>Configuração de um cluster Kubernetes altamente disponível.</p>
+                    <a href="https://github.com/Marcelo-Augusto-Silva/projeto-k8s" target="_blank">Ver no GitHub →</a>
+                </div>
+                <div class="project">
+                    <h3>Infraestrutura AWS com Terraform</h3>
+                    <p>Provisionamento de infraestrutura escalável na AWS utilizando Terraform.</p>
+                    <a href="https://github.com/Marcelo-Augusto-Silva/terraform-aws" target="_blank">Ver no GitHub →</a>
+                </div>
+                <div class="project">
+                    <h3>Pipeline CI/CD com GitHub Actions</h3>
+                    <p>Automação de deploys com CI/CD usando GitHub Actions e Docker.</p>
+                    <a href="https://github.com/Marcelo-Augusto-Silva/pipeline-cicd" target="_blank">Ver no GitHub →</a>
+                </div>
             </div>
-            <div class="project fade-in">
-                <h3>Infraestrutura AWS com Terraform</h3>
-                <p>Provisionamento de infraestrutura escalável na AWS utilizando Terraform.</p>
-                <a href="https://github.com/Marcelo-Augusto-Silva/terraform-aws" target="_blank">Ver no GitHub →</a>
-            </div>
-            <div class="project fade-in">
-                <h3>Pipeline CI/CD com GitHub Actions</h3>
-                <p>Automação de deploys com CI/CD usando GitHub Actions e Docker.</p>
-                <a href="https://github.com/Marcelo-Augusto-Silva/pipeline-cicd" target="_blank">Ver no GitHub →</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>📩 Entre em contato</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/marcelo-devops/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Marcelo-Augusto-Silva" target="_blank">GitHub</a>
+                <a href="https://www.youtube.com/@CyberTechShape" target="_blank">YouTube</a>
             </div>
         </div>
     </section>
     
     <footer class="footer">
-        <p class="fade-in">📩 Entre em contato:</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/marcelo-devops/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/Marcelo-Augusto-Silva" target="_blank">GitHub</a>
-            <a href="https://www.youtube.com/@CyberTechShape" target="_blank">YouTube</a>
-        </div>
+        <p>&copy; 2024 Marcelo Augusto - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
